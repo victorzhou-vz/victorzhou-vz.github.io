@@ -11,6 +11,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<style>
+		@media (max-width: 600px) {
+  		header.major > div {
+    		flex-direction: column !important;
+    		align-items: center !important;
+  		}
+  		header.major > div > img {
+    		margin-right: 0 !important;
+    		margin-bottom: 20px !important;
+    		width: 150px !important;
+    		height: 150px !important;
+  		}
+		}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -21,7 +36,7 @@
 					<div id="intro">
 						<h1>Victor Zhou<br />
 						</h1>
-						<p style="font-size: 25px;">Je suis étudiant en deuxième année d'école d'ingénieurs à Polytech Sorbonne en Maths appliquées et Informatique<br>
+						<p style="font-size: 23px;">Je suis étudiant en deuxième année d'école d'ingénieurs à Polytech Sorbonne en Maths appliquées et Informatique
 						et je suis à la recherche <strong>d'un stage de 4 mois en Data Science à partir de mai 2026.</strong></p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
@@ -172,13 +187,16 @@
 									</div>
 									<div style="display:flex; flex-direction:column; align-items:center; height:200px;">
 										<a href="https://riscv.org/" class="image"><img src="images/logos/RISC-V-logo-square.svg" alt="RISC-V" style="width:110px; height:auto;"/></a>
-										<div style="margin-top:auto;">RISC_V</div>
+										<div style="margin-top:auto;">RISC-V</div>
 									</div>
+								</div>
+							
 
-									<header class="major" style="margin-bottom: 15px">
+									<header class="major" style="margin-bottom: 4em; margin-top: 5em;">
+									
 									<h2>Outils</h2>
 									</header>
-									<div style="width: 100%; display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: center; margin-bottom: auto;"></div>
+									<div style="width: 100%; display: flex; flex-wrap: wrap; gap: 32px; align-items: center; justify-content: center; margin-bottom: auto;">
 									<div style="display:flex; flex-direction:column; align-items:center; height:200px;">
 										<a href="https://code.visualstudio.com/" class="image"><img src="images/logos/vscode.png" alt="VS Code" style="width:80px; height:auto;"/></a>
 										<div style="margin-top:auto;">Visual Studio Code</div>
@@ -313,5 +331,4 @@
 	</body>
 
 </html>
-
 
