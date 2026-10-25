@@ -1,0 +1,13 @@
+.DS_Store
+
+# Sources LaTeX du CV : gardées en local uniquement (seuls les PDF sont publiés)
+cv-resume/*.tex
+cv-resume/Photo.jpeg
+
+# Fichiers temporaires LaTeX
+*.aux
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
